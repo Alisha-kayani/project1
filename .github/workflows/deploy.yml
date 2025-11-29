@@ -4,11 +4,13 @@ on:
   push:
     branches:
       - main
+      - 001-docusaurus-config
     # Review gh actions docs if you want to further customize
     # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
   pull_request:
     branches:
       - main
+      - 001-docusaurus-config
     # Uncomment the next line if you want GitHub Actions to fail on PR previews that break the build
     # (Adding this is a good idea for testing)
     # if: github.event.pull_request.head.repo.full_name == github.repository
@@ -46,7 +48,7 @@ jobs:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     needs: build
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/001-docusaurus-config'
     permissions:
       pages: write
       contents: write
