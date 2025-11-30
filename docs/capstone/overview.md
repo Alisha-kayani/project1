@@ -6,6 +6,8 @@ sidebar_position: 1
 
 # Capstone: Autonomous Humanoid
 
+![Autonomous Humanoid Robot](/img/AI-robot-meets-girl-1.jpg)
+
 ## Overview
 
 The Capstone project integrates all concepts from Modules 1-4 to build a complete **autonomous humanoid robot** capable of natural human interactions. This project demonstrates mastery of Physical AI by combining ROS 2 middleware, simulation validation, AI-powered perception, and Vision-Language-Action control into a unified system.

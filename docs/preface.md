@@ -6,6 +6,8 @@ sidebar_position: 1
 
 # Preface: Welcome to Physical AI & Humanoid Robotics
 
+![Physical AI and Robotics](/img/AI-And-Robotics.jpg)
+
 ## Introduction
 
 Welcome to **Physical AI & Humanoid Robotics: Bridging the Gap Between Digital Brain and Physical Body**. This textbook teaches you to design, simulate, and deploy humanoid robots capable of natural human interactions using ROS 2, Gazebo, NVIDIA Isaac, and Vision-Language-Action models.

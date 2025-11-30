@@ -1,0 +1,20 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Robot Head -->
+  <rect x="12" y="8" width="16" height="18" rx="2" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <circle cx="18" cy="15" r="2" fill="#ffffff"/>
+  <circle cx="22" cy="15" r="2" fill="#ffffff"/>
+  <!-- AI Circuit Pattern -->
+  <path d="M14 20 L18 20 M22 20 L26 20 M16 22 L24 22" stroke="#60a5fa" stroke-width="1" stroke-linecap="round"/>
+  <!-- Antenna -->
+  <line x1="20" y1="8" x2="20" y2="4" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="20" cy="4" r="1.5" fill="#3b82f6"/>
+  <!-- Body/Neural Network Connection -->
+  <path d="M20 26 L20 32" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="20" cy="32" r="3" fill="#2563eb"/>
+  <!-- AI Nodes -->
+  <circle cx="12" cy="32" r="2" fill="#60a5fa" opacity="0.7"/>
+  <circle cx="28" cy="32" r="2" fill="#60a5fa" opacity="0.7"/>
+  <path d="M14 32 L18 32 M22 32 L26 32" stroke="#93c5fd" stroke-width="1" stroke-linecap="round"/>
+</svg>
+

@@ -6,6 +6,8 @@ sidebar_position: 1
 
 # Module 1: ROS 2 (Robotic Nervous System)
 
+![ROS 2 Robotic System](/img/shutterstock_2547021065-scaled-800x491.jpg)
+
 ## Overview
 
 Module 1 introduces **ROS 2 (Robot Operating System 2)** as the robotic nervous system that connects AI brains to physical robot bodies. This module establishes the foundational middleware layer that enables all subsequent modules.

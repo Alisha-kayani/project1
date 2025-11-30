@@ -1,0 +1,45 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="150" fill="#f8fafc"/>
+  
+  <!-- Robot -->
+  <g transform="translate(60, 50)">
+    <!-- Body -->
+    <rect x="0" y="0" width="20" height="30" rx="2" fill="#2563eb"/>
+    <!-- Head -->
+    <circle cx="10" cy="-8" r="8" fill="#3b82f6"/>
+    <!-- Eyes -->
+    <circle cx="7" cy="-10" r="1.5" fill="#ffffff"/>
+    <circle cx="13" cy="-10" r="1.5" fill="#ffffff"/>
+    <!-- Arms -->
+    <rect x="-5" y="5" width="6" height="20" rx="1" fill="#2563eb"/>
+    <rect x="19" y="5" width="6" height="20" rx="1" fill="#2563eb"/>
+    <!-- Legs -->
+    <rect x="3" y="30" width="6" height="15" rx="1" fill="#2563eb"/>
+    <rect x="11" y="30" width="6" height="15" rx="1" fill="#2563eb"/>
+  </g>
+  
+  <!-- Speech Bubble -->
+  <path d="M100 30 Q110 25, 120 30 Q130 35, 125 45 Q120 55, 110 50 Q105 48, 100 45 Q95 48, 90 50 Q80 55, 75 45 Q70 35, 80 30 Q90 25, 100 30 Z" fill="#60a5fa" opacity="0.3" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="100" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e40af" font-weight="bold">"Clean Room"</text>
+  
+  <!-- Vision Eye -->
+  <g transform="translate(140, 40)">
+    <circle cx="0" cy="0" r="15" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+    <circle cx="0" cy="0" r="10" fill="#3b82f6"/>
+    <circle cx="0" cy="0" r="5" fill="#1e40af"/>
+    <circle cx="-3" cy="-3" r="1.5" fill="#ffffff"/>
+  </g>
+  
+  <!-- Language/Text Lines -->
+  <line x1="30" y1="100" x2="50" y2="100" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="110" x2="45" y2="110" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <line x1="30" y1="120" x2="55" y2="120" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Action Arrow -->
+  <path d="M80 100 L120 100 L115 95 M120 100 L115 105" stroke="#3b82f6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Labels -->
+  <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2563eb" font-weight="bold">Vision-Language-Action</text>
+</svg>
+

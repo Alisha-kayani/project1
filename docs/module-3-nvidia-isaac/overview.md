@@ -6,6 +6,8 @@ sidebar_position: 1
 
 # Module 3: NVIDIA Isaac (AI-Robot Brain)
 
+![AI and Robotics](/img/AI-And-Robotics.jpg)
+
 ## Overview
 
 Module 3 introduces **NVIDIA Isaac** platform for AI-powered perception and manipulation in robotics. After establishing ROS 2 (Module 1) and simulation foundations (Module 2), you'll now learn to build the "AI brain" that enables robots to perceive, navigate, and manipulate their environment.

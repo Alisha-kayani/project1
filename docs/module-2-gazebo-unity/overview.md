@@ -6,6 +6,8 @@ sidebar_position: 1
 
 # Module 2: Gazebo & Unity (Digital Twin)
 
+![Digital Twin Simulation](/img/blog-image-39.png)
+
 ## Overview
 
 Module 2 introduces **simulation environments** (Gazebo and Unity) as digital twins for safe, scalable robot training. After mastering ROS 2 in Module 1, you'll now learn to create virtual environments where robots can be tested, trained, and validated before deployment to physical hardware.

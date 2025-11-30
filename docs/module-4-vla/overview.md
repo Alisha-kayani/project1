@@ -6,6 +6,8 @@ sidebar_position: 1
 
 # Module 4: Vision-Language-Action (VLA)
 
+![Human-Robot Interaction](/img/AI-robot-meets-girl-1.jpg)
+
 ## Overview
 
 Module 4 introduces **Vision-Language-Action (VLA)** models that enable Large Language Models (LLMs) to control physical robots through natural language. After mastering ROS 2 (Module 1), simulation (Module 2), and AI perception (Module 3), you'll now learn to integrate everything into a system that understands language, perceives the environment, and executes physical actions.

@@ -6,6 +6,7 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
+  image: string;
   description: ReactNode;
   link?: string;
 };
@@ -13,6 +14,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Part 1: ROS 2 (Robotic Nervous System)',
+    image: '/img/shutterstock_2547021065-scaled-800x491.jpg',
     description: (
       <>
         Master the middleware connecting AI brains to robot bodies. Build mental models of distributed systems through manual practice and hands-on learning.
@@ -22,6 +24,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Part 2: Gazebo & Unity (Digital Twin)',
+    image: '/img/blog-image-39.png',
     description: (
       <>
         Create physics simulations and digital twins for safe, scalable robot training. Learn to evaluate simulation realism and apply sim-to-real transfer.
@@ -31,6 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Part 3: NVIDIA Isaac (AI-Robot Brain)',
+    image: '/img/AI-And-Robotics.jpg',
     description: (
       <>
         Build AI-powered perception and manipulation capabilities. Master photorealistic simulation, VSLAM, navigation, and reinforcement learning.
@@ -40,6 +44,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Part 4: Vision-Language-Action (VLA)',
+    image: '/img/AI-robot-meets-girl-1.jpg',
     description: (
       <>
         Design systems that enable LLMs to control physical robots through natural language. Orchestrate accumulated intelligence for autonomous humanoid control.
@@ -49,9 +54,12 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, description, link}: FeatureItem) {
+function Feature({title, image, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
+      <div className="text--center">
+        <img src={image} alt={title} className={styles.featureImage} />
+      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
