@@ -1,0 +1,25 @@
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="150" fill="#f8fafc"/>
+  
+  <!-- Network Nodes -->
+  <circle cx="50" cy="50" r="15" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="150" cy="50" r="15" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="50" cy="100" r="15" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="150" cy="100" r="15" fill="#2563eb" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="100" cy="75" r="15" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Connection Lines (ROS 2 Topics) -->
+  <line x1="65" y1="50" x2="85" y2="75" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  <line x1="135" y1="50" x2="115" y2="75" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  <line x1="65" y1="100" x2="85" y2="75" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  <line x1="135" y1="100" x2="115" y2="75" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  <line x1="50" y1="65" x2="50" y2="85" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  <line x1="150" y1="65" x2="150" y2="85" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Node Labels -->
+  <text x="50" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e40af" font-weight="bold">Node</text>
+  <text x="150" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e40af" font-weight="bold">Node</text>
+  <text x="100" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2563eb" font-weight="bold">ROS 2</text>
+</svg>
+
