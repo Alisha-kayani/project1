@@ -10,15 +10,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://Alisha-Kayani.github.io',
+  url: 'https://Alisha-kayani.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-and-Humanoid-Robotics/',
+  baseUrl: '/project1/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Alisha-Kayani', // Usually your GitHub org/user name.
-  projectName: 'Physical-AI-and-Humanoid-Robotics', // Usually your repo name.
+  organizationName: 'Alisha-kayani', // Usually your GitHub org/user name.
+  projectName: 'project1', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -73,7 +73,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/Alisha-Kayani/Physical-AI-and-Humanoid-Robotics',
+            href: 'https://github.com/Alisha-kayani/project1',
             label: 'GitHub',
             position: 'right',
           },
