@@ -6,7 +6,6 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
   link?: string;
 };
@@ -14,7 +13,6 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Part 1: ROS 2 (Robotic Nervous System)',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
         Master the middleware connecting AI brains to robot bodies. Build mental models of distributed systems through manual practice and hands-on learning.
@@ -24,7 +22,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Part 2: Gazebo & Unity (Digital Twin)',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Create physics simulations and digital twins for safe, scalable robot training. Learn to evaluate simulation realism and apply sim-to-real transfer.
@@ -34,7 +31,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Part 3: NVIDIA Isaac (AI-Robot Brain)',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         Build AI-powered perception and manipulation capabilities. Master photorealistic simulation, VSLAM, navigation, and reinforcement learning.
@@ -44,7 +40,6 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Part 4: Vision-Language-Action (VLA)',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Design systems that enable LLMs to control physical robots through natural language. Orchestrate accumulated intelligence for autonomous humanoid control.
@@ -54,12 +49,9 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description, link}: FeatureItem) {
+function Feature({title, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
